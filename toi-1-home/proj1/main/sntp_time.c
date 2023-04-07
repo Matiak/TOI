@@ -1,11 +1,3 @@
-/* LwIP SNTP example
-
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
 #include <string.h>
 #include <time.h>
 #include <sys/time.h>
@@ -19,6 +11,8 @@
 #include "esp_sleep.h"
 #include "nvs_flash.h"
 #include "esp_sntp.h"
+
+#include "sntp_time.h"
 
 static const char *TAG = "stnp_time";
 
