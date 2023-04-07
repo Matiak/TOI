@@ -1,4 +1,5 @@
 toi-1-home/proj1/build/*
 toi-1-home/proj1/.vscode/*
 toi-1-home/tf*
-toi-1-home/proj1/components/*
+toi-1-home/proj1/components/esp-nn/*
+toi-1-home/proj1/components/tflite-lib/*

@@ -42,7 +42,7 @@ void onewire_task(void *pvParameter)
         char rom_code_s[17];
         owb_string_from_rom_code(search_state.rom_code, rom_code_s,
                                  sizeof(rom_code_s));
-        printf("  %d : %s\n", num_devices, rom_code_s);
+        //printf("  %d : %s\n", num_devices, rom_code_s);
         device_rom_codes[num_devices] = search_state.rom_code;
         ++num_devices;
         owb_search_next(owb, &search_state, &found);
