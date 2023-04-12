@@ -90,7 +90,7 @@ void app_main()
     ESP_ERROR_CHECK(nvs_flash_init());
     wifi_init_sta();
     // sntp_set_sync_mode(SNTP_SYNC_MODE_IMMED);
-    esp_sntp_setservername(0, "pool.ntp.org");
+    sntp_setservername(0, "pool.ntp.org");
     initialize_sntp();
     int retry = 0;
     const int retry_count = 10;
